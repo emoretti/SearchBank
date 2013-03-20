@@ -47,7 +47,7 @@ namespace Data.Model
             modelBuilder.Entity<Address>().Property(a => a.Number).IsRequired();
             modelBuilder.Entity<Address>().Property(a => a.ZipCode).IsOptional();
             modelBuilder.Entity<Address>().Property(a => a.Country).IsRequired();
-            modelBuilder.Entity<Address>().Property(a => a.County).IsOptional();
+            modelBuilder.Entity<Address>().Property(a => a.City).IsOptional();
             modelBuilder.Entity<Address>().Property(a => a.Latitude).IsRequired();
             modelBuilder.Entity<Address>().Property(a => a.Longitude).IsRequired();
 

@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GMaps">
+      <HintPath>..\packages\Subgurim.Maps.4.1.0.6\lib\net20\GMaps.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -293,6 +296,10 @@
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{acdadc4b-845d-4a75-b051-b7b2bbda531f}</Project>
       <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{fa805949-9772-4939-b8e4-55379b2ac291}</Project>
+      <Name>Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{a8656cea-c11e-4932-a13d-669773d0b8c9}</Project>
